@@ -9,6 +9,9 @@
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "lint": {},
-    "test": {}
+    "test": {},
+    "typecheck": {
+      "dependsOn": ["^typecheck"]
+    }
   }
 }
