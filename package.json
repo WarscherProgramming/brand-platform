@@ -7,7 +7,9 @@
     "dev": "turbo dev",
     "build": "turbo build",
     "lint": "turbo lint",
-    "test": "turbo test"
+    "test": "turbo test",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +23,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "prettier": "^3.9.4",
     "turbo": "^2.10.3"
   }
 }

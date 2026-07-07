@@ -1,4 +1,3 @@
-
 # ADR 0001: Use a Modular Monolith
 
 ## Status

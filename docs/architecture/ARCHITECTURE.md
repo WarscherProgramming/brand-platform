@@ -1,4 +1,3 @@
-
 # Brand Platform Architecture
 
 ## Purpose
