@@ -1,13 +1,40 @@
 import Link from "next/link";
 
+type NavItem = {
+  label: string;
+  href: string;
+};
+
+const navItems: NavItem[] = [
+  {
+    label: "Watch",
+    href: "/watch",
+  },
+  {
+    label: "Armory",
+    href: "/armory",
+  },
+  {
+    label: "Projects",
+    href: "/projects",
+  },
+  {
+    label: "Shop",
+    href: "/shop",
+  },
+  {
+    label: "Membership",
+    href: "/membership",
+  },
+];
 export function MainNavigation() {
   return (
     <nav aria-label="Main" className="flex items-center gap-6 text-sm text-zinc-600">
-      <Link href="/watch">Watch</Link>
-      <Link href="/armory">Armory</Link>
-      <Link href="/projects">Projects</Link>
-      <Link href="/shop">Shop</Link>
-      <Link href="/membership">Membership</Link>
+      {navItems.map((item) => (
+        <Link key={item.href} href={item.href}>
+          {item.label}
+        </Link>
+      ))}
     </nav>
   );
 }
