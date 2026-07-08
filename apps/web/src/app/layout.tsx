@@ -16,7 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DW Tactical",
+  title: {
+    template: "%s | DW Tactical",
+    default: "DW Tactical",
+  },
   description: "Brand Website",
 };
 

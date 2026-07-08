@@ -18,6 +18,8 @@ The first version will focus on a clean modular monolith instead of microservice
 
 ## Primary Domains
 
+The internal `Videos` domain is exposed publicly as `/watch` with the navigation label `Watch`.
+
 - Videos
 - Armory
 - Projects
