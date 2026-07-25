@@ -14,12 +14,12 @@ const domainCards: DomainCard[] = [
   },
   {
     title: "Armory",
-    description: "Checkout our arsenal!",
+    description: "Check out our arsenal!",
     href: "/armory",
   },
   {
     title: "Projects",
-    description: "Checkout our upcoming projects!",
+    description: "Check out our upcoming projects!",
     href: "/projects",
   },
   {
@@ -80,7 +80,7 @@ export default function Home() {
             <h2 className="text-2xl font-semibold tracking-tight">Membership</h2>
 
             <p className="mt-2 max-w-2xl text-zinc-300">
-              Become a exclusive member of DW Tactical
+              Become an exclusive member of DW Tactical
             </p>
           </div>
 
