@@ -73,6 +73,25 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <section className="py-16">
+        <div className="flex flex-col gap-6 rounded-lg bg-zinc-950 p-8 text-zinc-50 md:flex-row md:items-center md:justify-between">
+          <div>
+            <h2 className="text-2xl font-semibold tracking-tight">Membership</h2>
+
+            <p className="mt-2 max-w-2xl text-zinc-300">
+              Become a exclusive member of DW Tactical
+            </p>
+          </div>
+
+          <Link
+            href="/membership"
+            className="rounded-md bg-zinc-50 px-5 py-3 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
+          >
+            Become a member
+          </Link>
+        </div>
+      </section>
     </>
   );
 }
