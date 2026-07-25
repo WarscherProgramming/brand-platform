@@ -29,7 +29,10 @@ const navItems: NavItem[] = [
 ];
 export function MainNavigation() {
   return (
-    <nav aria-label="Main" className="flex items-center gap-6 text-sm text-zinc-600">
+    <nav
+      aria-label="Main"
+      className="flex flex-wrap items-center gap-3 text-sm text-zinc-600 md:gap-6"
+    >
       {navItems.map((item) => (
         <Link className="transition-colors hover:text-zinc-950" key={item.href} href={item.href}>
           {item.label}
